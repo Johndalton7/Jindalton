@@ -24,7 +24,12 @@ async def start(bot, update):
             return
         
         caption = file_caption if file_caption != ("" or None) else ("<code>" + file_name + "</code>")
-        
+ <b> GROUP 
+@MF_CHATGROUP
+CHANNEL
+@MFMOVIES3
+CHANNEL
+@MF_FILMM </b>
         if file_type == "document":
         
             await bot.send_document(
@@ -38,7 +43,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    'Developers', url="https://t.me/CrazyBotsz"
+                                    'CLICK HERE AND DOWNLOAD', url="https://t.me/MFMOVIES3"
                                 )
                         ]
                     ]
@@ -57,7 +62,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    'Developers', url="https://t.me/CrazyBotsz"
+                                    'JOIN', url="https://t.me/MFMOVIES3"
                                 )
                         ]
                     ]
@@ -89,10 +94,10 @@ async def start(bot, update):
         return
 
     buttons = [[
-        InlineKeyboardButton('Developers', url='https://t.me/CrazyBotsz'),
-        InlineKeyboardButton('Source Code 🧾', url ='https://github.com/CrazyBotsz/Adv-Auto-Filter-Bot-V2')
+        InlineKeyboardButton('👩‍💻 CREATOR', url='https://t.me/JohnDalton_TG'),
+        InlineKeyboardButton('GROUP', url ='https://t.me/MF_CHATGROUP')
     ],[
-        InlineKeyboardButton('Support 🛠', url='https://t.me/CrazyBotszGrp')
+        InlineKeyboardButton('CHANNEL', url='https://t.me/MFMOVIES3')
     ],[
         InlineKeyboardButton('Help ⚙', callback_data="help")
     ]]
