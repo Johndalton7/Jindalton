@@ -24,12 +24,7 @@ async def start(bot, update):
             return
         
         caption = file_caption if file_caption != ("" or None) else ("<code>" + file_name + "</code>")
- <b> GROUP 
-@MF_CHATGROUP
-CHANNEL
-@MFMOVIES3
-CHANNEL
-@MF_FILMM </b>
+
         if file_type == "document":
         
             await bot.send_document(
