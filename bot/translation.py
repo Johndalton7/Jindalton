@@ -13,7 +13,7 @@ class Translation(object):
    
     
     HELP_TEXT = """
-<b> No one gonna help you🧐 </b>
+ No one gonna help you 
             
 @MF_CHATGROUP
 """
